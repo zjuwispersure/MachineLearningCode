@@ -11,3 +11,7 @@ bash run_translation_marian.sh
 如果要进行测试或者将模型输出的翻译结果保存到文件，只需把脚本中的 `--do_train` 改成 `--do_test` 或 `--do_pred`。
 
 > 经过 3 轮训练，最终 Marian 模型在测试集上的 BLEU 值为 54.87（Nvidia Tesla V100, batch=32）。
+
+改动内容：
+1、将这部分内容改为colab可以执行的方式。
+2、原始数据较大，没有上传，在data目录下有下载地址
